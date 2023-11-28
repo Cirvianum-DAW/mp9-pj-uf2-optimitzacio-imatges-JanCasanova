@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS with Parcel</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="flex font-sans text-center bg-cover justify-center min-h-screen" style="background-image: url('img/background.jpg');">
+    <div class="w-screen relative">
+        <div class="navbar bg-gray-700 overflow-hidden">
+            <a href="cotxes.html" class="button-left text-black bg-teal-300 block float-left text-center p-4 m-2 rounded-md no-underline">HOME</a>
+            <a href="enllasos.html" class="button-right text-black bg-teal-300 block float-right text-center p-4 m-2 rounded-md no-underline">ENLLAÇ</a>
+            <a href="quisom.html" class="button-right text-black bg-teal-300 block float-right text-center p-4 m-2 rounded-md no-underline">QUI SOM</a>
+        </div>
+        <div class="max-w-screen-xl mx-auto p-5 flex flex-col items-center">
+            <div>
+                <h1 class="text-4xl mt-10"><b>Qui som?</b></h1>
+                <p class="m-10">Som una empresa dedicada a la explicació dels nostres models amb la seva història i amb tot el que es podria explicar, és probable que faltin coses i si saps algo el qual no estigui apuntat no dubtis en contactar amb nosaltres per poder-ho aplicar a la pàgina.</p>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center mt-5">
+                <img class="max-w-[450px] max-h-[300px] m-10" src="img/seat128_1.jpg" alt="Foto 1">
+                <iframe class="w-56 h-56 m-10" src="https://www.youtube.com/embed/yourvideo" frameborder="0" allowfullscreen></iframe>
+                <img class="max-w-[450px] max-h-[300px] m-10" src="img/seatleon_3.jpg" alt="Foto 2">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
