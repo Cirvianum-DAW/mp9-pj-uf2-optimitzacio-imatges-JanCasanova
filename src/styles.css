@@ -1,3 +1,17 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .custom-animation {
+    animation: rotate 2s infinite; /* Personalitza la durada, repeticions, etc. segons les teves necessitats */
+  }
+  
