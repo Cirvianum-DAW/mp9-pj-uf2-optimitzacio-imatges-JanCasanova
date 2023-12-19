@@ -6,8 +6,8 @@
     <title>Tailwind CSS with Parcel</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="flex font-sans text-center bg-cover justify-center min-h-screen" style="background-image: url('img/background.webp');">
-    <div class="w-screen relative">
+<body class="flex flex-col min-h-screen font-sans text-center bg-cover justify-center" style="background-image: url('img/background.webp');">
+    <div class="w-screen relative flex-grow">
         <div class="navbar bg-gray-700 overflow-hidden">
             <a href="cotxes.html" class="button-left text-black bg-teal-300 block float-left text-center p-4 m-2 rounded-md no-underline transition duration-300 hover:bg-teal-500">HOME</a>
             <a href="enllasos.html" class="button-right text-black bg-teal-300 block float-right text-center p-4 m-2 rounded-md no-underline transition duration-300 hover:bg-teal-500">ENLLAÇ</a>
@@ -17,19 +17,22 @@
             <div class="text-lg mt-12 mb-4 bg-teal-300">
                 <h1 class="text-2xl">Enllaços a pàgines d'ajuda per les imatges</h1>
             </div>
-            <a href="https://pixabay.com" class="block text-xl mt-2">Enllaç a pixabay</a>
-            <a href="https://www.freepik.com/" class="block text-xl mt-2">Enllaç a freepik</a>
+            <a href="https://pixabay.com" class="block text-xl mt-2 hover:text-teal-500">Enllaç a pixabay</a>
+            <a href="https://www.freepik.com/" class="block text-xl mt-2 hover:text-teal-500">Enllaç a freepik</a>
 
             <div class="text-lg mt-12 mb-4 bg-teal-300">
                 <h1 class="text-2xl">Enllaços a pàgines d'ajuda per la informació</h1>
             </div>
-            <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" class="block text-xl mt-2">Enllaç a wikipedia</a>
+            <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" class="block text-xl mt-2 hover:text-teal-500">Enllaç a wikipedia</a>
 
             <div class="text-lg mt-12 mb-4 bg-teal-300">
                 <h1 class="text-2xl">Enllaços a pàgines d'ajuda per el codi</h1>
             </div>
-            <a href="https://chat.openai.com/" class=" block text-xl mt-2">Enllaç a ChatGPT</a>
+            <a href="https://chat.openai.com/" class=" block text-xl mt-2 hover:text-teal-500">Enllaç a ChatGPT</a>
         </div>
     </div>
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2023 SEAT Tots els drets reservats.</p>
+    </footer>
 </body>
 </html>
