@@ -26,6 +26,9 @@
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
+    "imagemin": "^8.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
     "parcel": "^2.0.0-nightly.1404"
   }
 }
